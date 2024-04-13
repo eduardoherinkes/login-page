@@ -8,6 +8,7 @@
 
 body {
     background-image: url("../img/login-bg.png");
+    background-position: center center;
 }
 
 #login-page {
