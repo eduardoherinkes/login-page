@@ -1,0 +1,88 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sriracha&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url("../img/login-bg.png");
+}
+
+.login-page {
+    background-color: rgba(0, 0, 0, 0.096);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+    border-radius: 17px;
+    border: 3px solid white;
+}
+
+.login-page-h1 {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.login-data {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.login-input {
+    font-family: "Poppins", sans-serif;
+    padding: 16px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.082);
+}
+
+.login-input:hover {
+    transition-duration: 0.3s;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.login-input::placeholder {
+    color: white; 
+ 
+}
+
+.login-input:focus {
+    outline: none; 
+}
+
+.login-input[type="text"],
+.login-input[type="email"],
+.login-input[type="password"] {
+    color: white;
+}
+
+.login-button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.login-button button {
+    width: 80%;
+    height: 50px;
+    border-radius: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.1em;
+    border: none;
+}
+
+.login-button button:hover {
+    background-color: rgba(0, 0, 0, 0.24);
+    transition-duration: 0.4s;
+}
+
